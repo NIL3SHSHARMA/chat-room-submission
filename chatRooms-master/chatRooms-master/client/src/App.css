@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Manrope";
+    src: url(./Assets/Fonts/Manrope/Manrope-VariableFont_wght.ttf) format("truetype");
+  }
+
+body{
+    font-family: Manrope;
+    color: #282C40;
+
+}
+
+.error-message{
+  color:red;
+  font-weight: 600;
+}

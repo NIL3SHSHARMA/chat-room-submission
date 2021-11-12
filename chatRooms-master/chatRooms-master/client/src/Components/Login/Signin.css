@@ -1,0 +1,101 @@
+.ccontainer{
+    width: 100vw;
+    height:100vh;
+    display: grid;
+    place-content: center;
+ 
+}
+
+.login-container{
+  width: 1100px;
+  height: 640px;
+  background: #FFFFFF;
+  box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.login-form-container{
+  width: 550px;
+  height: 640px;
+  padding: 87px 70px 87px 70px
+}
+
+.input-container{
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.d-flex{
+  display: flex;
+  justify-content:center;
+}
+
+.forgot-pass{
+  background-color: #FFFFFF;
+  border:none;
+  cursor: pointer;
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 110%;
+  color: #F0AE4B;
+}
+
+.round{
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type=text], input[type=password], select {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    color : #373C56;
+    padding: 12px 0px;
+    display: inline-block;
+    outline: none;
+    border : none;
+    border-bottom:2px solid #EBEBEB;
+    box-sizing: border-box;
+  }
+
+  .login-submit {
+    width: 100%;
+    background:linear-gradient(180deg, #FFB648 0%, #FDC064 100%);
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.15));
+  }
+
+  .right-img{
+    border-radius: 0 20px 20px 0;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
+  ::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 110%;
+  color:rgba(130, 134, 154, 0.5);
+
+  }
+
+  ::-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 110%;
+  color: rgba(130, 134, 154, 0.5);
+  }
+
